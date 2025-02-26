@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "carrentalapp2b"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "carrentalapp2b-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
