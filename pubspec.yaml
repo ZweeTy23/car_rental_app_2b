@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.1
+  sdk: '^3.6.1'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -32,6 +32,8 @@ dependencies:
     sdk: flutter
   firebase_core: ^2.24.2
   cloud_firestore: ^4.14.0
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
 
 
   # The following adds the Cupertino Icons font to your application.
