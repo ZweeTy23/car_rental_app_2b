@@ -3,7 +3,6 @@ import 'dart:convert';
 
 class DefaultConnector {
   
-//xd
   static ConnectorConfig connectorConfig = ConnectorConfig(
     'us-central1',
     'default',
