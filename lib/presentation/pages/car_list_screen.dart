@@ -1,4 +1,3 @@
-import 'package:car_rental_app_2b/data/models/car.dart';
 import 'package:car_rental_app_2b/presentation/bloc/car_bloc.dart';
 import 'package:car_rental_app_2b/presentation/bloc/car_state.dart';
 import 'package:car_rental_app_2b/presentation/widgets/car_card.dart';

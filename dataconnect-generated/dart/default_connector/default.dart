@@ -1,19 +1,10 @@
+////No sirve pa nada
 library;
-import 'dart:convert';
-
-
-
-
-
-
 
 class DefaultConnector {
   
-
   static ConnectorConfig connectorConfig = ConnectorConfig(
-    'us-central1',
-    'default',
-    'carrentalapp2b',
+
   );
 
   DefaultConnector({required this.dataConnect});
@@ -25,5 +16,16 @@ class DefaultConnector {
   }
 
   FirebaseDataConnect dataConnect;
+}
+
+class ConnectorConfig {
+}
+
+class CallerSDKType {
+  static var generated;
+}
+
+class FirebaseDataConnect {
+  static instanceFor({required connectorConfig, required sdkType}) {}
 }
 
