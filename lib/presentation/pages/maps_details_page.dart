@@ -71,7 +71,7 @@ Widget carDetailsCard({required Car car}) {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(height: 20,),
-              Text('${car.model}', 
+              Text(car.model, 
               style: TextStyle(
                 fontSize: 24, 
                 fontWeight: FontWeight.bold, 
